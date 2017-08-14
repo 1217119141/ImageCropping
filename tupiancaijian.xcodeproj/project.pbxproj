@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5CAA2821F037E1C00907B61 /* UIImage+FitInSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CAA2811F037E1C00907B61 /* UIImage+FitInSize.m */; };
 		D5FB334A1F02467F00D2FD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB33491F02467F00D2FD2F /* main.m */; };
 		D5FB334D1F02467F00D2FD2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB334C1F02467F00D2FD2F /* AppDelegate.m */; };
 		D5FB33501F02467F00D2FD2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB334F1F02467F00D2FD2F /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		D5FB33581F02468000D2FD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FB33561F02468000D2FD2F /* LaunchScreen.storyboard */; };
 		D5FB33631F02468000D2FD2F /* tupiancaijianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB33621F02468000D2FD2F /* tupiancaijianTests.m */; };
 		D5FB336E1F02468000D2FD2F /* tupiancaijianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB336D1F02468000D2FD2F /* tupiancaijianUITests.m */; };
+		D5FB33811F02479500D2FD2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FB33801F02479500D2FD2F /* QuartzCore.framework */; };
+		D5FB33831F02479F00D2FD2F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FB33821F02479F00D2FD2F /* AssetsLibrary.framework */; };
+		D5FB33861F0248EE00D2FD2F /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FB33851F0248EE00D2FD2F /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5CAA2801F037E1C00907B61 /* UIImage+FitInSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FitInSize.h"; sourceTree = "<group>"; };
+		D5CAA2811F037E1C00907B61 /* UIImage+FitInSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FitInSize.m"; sourceTree = "<group>"; };
+		D5CAA2831F03801800907B61 /* PassImageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassImageDelegate.h; sourceTree = "<group>"; };
 		D5FB33451F02467F00D2FD2F /* tupiancaijian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tupiancaijian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FB33491F02467F00D2FD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5FB334B1F02467F00D2FD2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		D5FB33691F02468000D2FD2F /* tupiancaijianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tupiancaijianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FB336D1F02468000D2FD2F /* tupiancaijianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tupiancaijianUITests.m; sourceTree = "<group>"; };
 		D5FB336F1F02468000D2FD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FB33801F02479500D2FD2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D5FB33821F02479F00D2FD2F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D5FB33841F0248EE00D2FD2F /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		D5FB33851F0248EE00D2FD2F /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FB33831F02479F00D2FD2F /* AssetsLibrary.framework in Frameworks */,
+				D5FB33811F02479500D2FD2F /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,7 @@
 				D5FB33611F02468000D2FD2F /* tupiancaijianTests */,
 				D5FB336C1F02468000D2FD2F /* tupiancaijianUITests */,
 				D5FB33461F02467F00D2FD2F /* Products */,
+				D5FB337F1F02479500D2FD2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,11 @@
 				D5FB334C1F02467F00D2FD2F /* AppDelegate.m */,
 				D5FB334E1F02467F00D2FD2F /* ViewController.h */,
 				D5FB334F1F02467F00D2FD2F /* ViewController.m */,
+				D5CAA2831F03801800907B61 /* PassImageDelegate.h */,
+				D5FB33841F0248EE00D2FD2F /* PhotoViewController.h */,
+				D5FB33851F0248EE00D2FD2F /* PhotoViewController.m */,
+				D5CAA2801F037E1C00907B61 /* UIImage+FitInSize.h */,
+				D5CAA2811F037E1C00907B61 /* UIImage+FitInSize.m */,
 				D5FB33511F02468000D2FD2F /* Main.storyboard */,
 				D5FB33541F02468000D2FD2F /* Assets.xcassets */,
 				D5FB33561F02468000D2FD2F /* LaunchScreen.storyboard */,
@@ -138,6 +157,15 @@
 				D5FB336F1F02468000D2FD2F /* Info.plist */,
 			);
 			path = tupiancaijianUITests;
+			sourceTree = "<group>";
+		};
+		D5FB337F1F02479500D2FD2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FB33821F02479F00D2FD2F /* AssetsLibrary.framework */,
+				D5FB33801F02479500D2FD2F /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +307,8 @@
 				D5FB33501F02467F00D2FD2F /* ViewController.m in Sources */,
 				D5FB334D1F02467F00D2FD2F /* AppDelegate.m in Sources */,
 				D5FB334A1F02467F00D2FD2F /* main.m in Sources */,
+				D5FB33861F0248EE00D2FD2F /* PhotoViewController.m in Sources */,
+				D5CAA2821F037E1C00907B61 /* UIImage+FitInSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +544,7 @@
 				D5FB33741F02468000D2FD2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5FB33751F02468000D2FD2F /* Build configuration list for PBXNativeTarget "tupiancaijianTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +553,7 @@
 				D5FB33771F02468000D2FD2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5FB33781F02468000D2FD2F /* Build configuration list for PBXNativeTarget "tupiancaijianUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +562,7 @@
 				D5FB337A1F02468000D2FD2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
